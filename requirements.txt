@@ -1,9 +1,10 @@
 flask
-openai
-langchain>=0.2.0
-langchain-community>=0.0.20
-langchain-huggingface>=0.0.5
-faiss-cpu
-PyMuPDF
-python-docx
 python-dotenv
+langchain
+langchain-openai
+langchain-community
+faiss-cpu
+huggingface-hub
+docx2txt
+unstructured
+python-docx

@@ -110,7 +110,7 @@ def ask_question(query):
            memory = ConversationBufferMemory(
     memory_key="chat_history",
     return_messages=True,
-    output_key="result"  # ✅ match what the chain outputs
+    output_key="result" 
 )
 
         from langchain.chains import ConversationalRetrievalChain
