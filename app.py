@@ -20,7 +20,7 @@ if not OPENAI_API_KEY:
     raise ValueError("❌ OPENAI_API_KEY not found in .env file.")
 
 app = Flask(__name__)
-app.secret_key = "admin"
+app.secret_key = "SECRET_KEY"
 DOC_FOLDER = 'docs'
 app.config['DOC_FOLDER'] = DOC_FOLDER
 
